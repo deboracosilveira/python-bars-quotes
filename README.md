@@ -49,8 +49,32 @@ Write test cases to ensure the algorithm handles all scenarios:
 
 Feel free to add any packages you need.
 
+## Setup
+
+Create a virtual environment and install dependencies:
+
+```bash
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+```
+
 ## Run
 
 ```bash
 $ python3 exercise.py
+```
+
+## Test
+
+Run the test suite:
+
+```bash
+$ pytest test_stock_processor.py -v
+```
+
+To deactivate the virtual environment when done:
+
+```bash
+$ deactivate
 ```
